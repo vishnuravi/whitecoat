@@ -156,9 +156,9 @@ var ConversationPanel = (function () {
         }, 1000);
         setResponse(responses, isUser, chatBoxElement, index + 1, false);
       } else {
-        var userTypringField = document.getElementById('user-typing-field');
+        var userTypingField = document.getElementById('user-typing-field');
         if (res.typing) {
-          userTypringField.innerHTML = 'Watson Assistant Typing...';
+          userTypingField.innerHTML = 'Whitecoat is typing...';
         }
         setTimeout(function () {
           userTypringField.innerHTML = '';

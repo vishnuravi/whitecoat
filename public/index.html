@@ -1,10 +1,10 @@
 <html>
+
 <head>
   <base href="/">
   <title>Whitecoat</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta property="og:image" content="conversation.svg" />
   <meta property="og:title" content="Whitecoat" />
   <meta property="og:description" content="Natural language agent that assists in medical triage and documentation" />
   <meta name="viewport" content="width=device-width, user-scalable=no" />
@@ -16,14 +16,14 @@
   <div id="contentParent" class="responsive-columns-wrapper">
     <div id="chat-column-holder" class="responsive-column content-column">
       <div class="chat-column">
-        <div style="margin: auto"><img src="./img/whitecoat.jpg" width="150" /></div>
+        <div class="logo"><img class="logo" src="./img/whitecoat.jpg" /></div>
         <div id="scrollingChat"></div>
         <p class="user-typing" id="user-typing-field"></p>
-        <label for="textInput" class="inputOutline">
-          <input id="textInput" class="input responsive-column" placeholder="Type here" type="text" onkeydown="ConversationPanel.inputKeyDown(event, this)"
-            autofocus>
-        </label>
-        <p style="margin: 10">This is a demonstration only, please do not share any personal or health information.</p>
+          <label for="textInput" class="inputOutline">
+            <input id="textInput" class="input responsive-column" placeholder="Type here" type="text"
+              onkeydown="ConversationPanel.inputKeyDown(event, this)" autofocus>
+          </label>
+        <p class="disclaimer">This is a demonstration only, please do not share any personal or health information.</p>
       </div>
     </div>
   </div>
@@ -33,4 +33,5 @@
   <script src="js/conversation.js"></script>
   <script src="js/global.js"></script>
 </body>
+
 </html>
