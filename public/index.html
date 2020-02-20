@@ -19,11 +19,10 @@
         <div class="logo"><img class="logo" src="./img/whitecoat.jpg" /></div>
         <div id="scrollingChat"></div>
         <p class="user-typing" id="user-typing-field"></p>
-          <label for="textInput" class="inputOutline">
-            <input id="textInput" class="input responsive-column" placeholder="Type here" type="text"
-              onkeydown="ConversationPanel.inputKeyDown(event, this)" autofocus>
-          </label>
-        <p class="disclaimer">This is a demonstration only, please do not share any personal or health information.</p>
+        <label for="textInput" class="inputOutline">
+          <input id="textInput" class="input responsive-column" placeholder="Type here" type="text"
+            onkeydown="ConversationPanel.inputKeyDown(event, this)" autofocus>
+        </label>
       </div>
     </div>
   </div>
@@ -32,6 +31,8 @@
   <script src="js/api.js"></script>
   <script src="js/conversation.js"></script>
   <script src="js/global.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  <script src="js/disclaimer.js"></script>
 </body>
 
 </html>
