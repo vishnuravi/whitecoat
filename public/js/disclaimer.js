@@ -1,10 +1,7 @@
-// Show demo disclaimer at launch
-
+// Show disclaimer on application load
 Swal.fire({
-    title: '<strong>Disclaimer</strong>',
-    icon: 'info',
+    title: '<h2>Notice</h2>',
     html:
-      '<p>This is a demo version of Whitecoat and is not secured.</p>' +
-      '<p>Please don\'t provide any personal information.</p>',
-    showCloseButton: true
+      '<p>This system is for demonstration purposes only and is not intended to process personal or health data.</p>' +
+      '<p>Please don\'t provide any of your personal or health information.</p>'
   })
