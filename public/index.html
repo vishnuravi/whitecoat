@@ -18,21 +18,13 @@
     <div id="chat-column-holder" class="responsive-column content-column animated fadeInDown">
       <div class="chat-column">
         <div class="header">
-          <img class="logo" src="./img/whitecoat.jpg" />
-          <div class="title">
-            <h1>Whitecoat</h1>
-            <div class="navbar">
-              <button class="button"><i class="material-icons">account_circle</i></button>
-              <button class="button"><i class="material-icons">settings</i></button>
-              <button class="button"><i class="material-icons">info</i></button>
-            </div>
-          </div>
+          <img class="logo animated fadeIn" src="img/whitecoat.jpg" />
         </div>
         <div id="scrollingChat"></div>
         <p class="user-typing" id="user-typing-field"></p>
         <div id="input-box">
           <label for="textInput" class="input-outline">
-            <input id="textInput" class="input" placeholder="Type here" type="text"
+            <input id="textInput" class="input" type="text"
               onkeydown="ConversationPanel.inputKeyDown(event, this)" autofocus>
           </label>
           <button class="button" onclick="ConversationPanel.inputSubmit()"><i class="material-icons">send</i></button>
@@ -46,7 +38,6 @@
   <script src="js/conversation.js"></script>
   <script src="js/global.js"></script>
   <script src="js/sweetalert2.all.min.js"></script>
-  <script src="js/disclaimer.js"></script>
 </body>
 
 </html>

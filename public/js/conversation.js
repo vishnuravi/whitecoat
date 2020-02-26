@@ -114,7 +114,7 @@ var ConversationPanel = (function () {
         'children': [{
           // <div class='message-inner'>
           'tagName': 'div',
-          'classNames': ['message-inner'],
+          'classNames': ['message-inner', 'animated', 'fadeInUp'],
           'children': [{
             // <p>{messageText}</p>
             'tagName': 'p',
