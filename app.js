@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var watsonRouter = require('./routes/watson-assistant');
+var hpiRouter = require('./routes/hpi')
 
 var app = express();
 
@@ -16,5 +17,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/watson', watsonRouter);
+app.use('/hpi', hpiRouter);
 
 module.exports = app;
