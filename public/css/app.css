@@ -1,6 +1,5 @@
 /** Fonts **/
 
-@import url("https://fonts.googleapis.com/css?family=Assistant:200&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:200&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
@@ -91,7 +90,7 @@ html {
 
 /** Buttons **/
 
-.button {
+.submit-button {
   background-color: #593c92;
   border: none;
   color: white;
@@ -102,14 +101,32 @@ html {
   border-radius: 1em;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  transition: background-color 0.2s;
 }
 
-.button:hover {
-  background-color: #333;
+.submit-button:hover {
+  background-color: #352457;
 }
 
-.button:active {
-  background-color: #666;
+.option-button{
+  margin-left: 1em;
+  background-color: #593c92;
+  border: none;
+  color: white;
+  padding: 1em;
+  font-size: 12;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 1em;
+  cursor: pointer;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.option-button:hover {
+  background-color: #352457;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 /** Header **/
@@ -144,7 +161,7 @@ html {
   height: 90%;
   padding: 0.9375rem 0 0.625rem 0;
   text-align: left;
-  max-width: 30rem;
+  max-width: 25rem;
   min-width: 10rem;
   background-color: #ffffff;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
@@ -267,10 +284,10 @@ html {
 }
 
 .from-watson.latest.top p:before {
-  content: ".";
+  content: " ";
   background-color: #F868A5;
   background-size: 0.3125rem 1.3125rem;
-  border-radius: 10px;
+  border-radius: 1rem;
   position: absolute;
   z-index: 2;
   left: 0.4375rem;
@@ -290,7 +307,7 @@ html {
   letter-spacing: 0.015rem;
   line-height: 1.3125rem;
   height: 2.5rem;
-  min-width: 80%;
+  min-width: 75%;
   max-width: 100%;
   padding-left: 0.125rem;
   margin-bottom: -0.125rem;
