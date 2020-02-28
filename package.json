@@ -2,11 +2,8 @@
   "name": "whitecoat",
   "description": "Conversational agent to assist with medical history taking",
   "version": "0.1.0",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "lint": "eslint .",
-    "autofix": "eslint --fix ."
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -15,9 +12,11 @@
   "license": "Apache-2.0",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "ibm-watson": "^5.4.0",
+    "morgan": "^1.9.1",
     "nodemon": "^2.0.2"
   },
   "engines": {
