@@ -22,9 +22,5 @@
   "engines": {
     "node": ">=12"
   },
-  "engineStrict": true,
-  "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^5.16.0"
-  }
+  "engineStrict": true
 }
