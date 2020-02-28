@@ -155,8 +155,8 @@ var ConversationPanel = (function () {
         list = '<br>';
         for (i = 0; i < optionsList.length; i++) {
           if (optionsList[i].value) {
-            var item = '<div class="options-button" onclick="ConversationPanel.sendMessage(\'' +
-              optionsList[i].value.input.text + '\');" >' + optionsList[i].label + '</div>';
+            var item = '<button class="option-button" onclick="ConversationPanel.sendMessage(\'' +
+              optionsList[i].value.input.text + '\');" >' + optionsList[i].label + '</button>';
             list += item;
           }
         }
@@ -191,7 +191,7 @@ var ConversationPanel = (function () {
         typing: gen.typing
       });
     } else if (gen.response_type === 'option') {
-      var preference = 'text';
+      var preference = 'button';
       if (gen.hasOwnProperty('preference')) {
         preference = gen.preference;
       }
