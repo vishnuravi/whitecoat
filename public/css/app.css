@@ -184,7 +184,7 @@ html {
   overflow-y: auto;
   overflow-x: hidden;
   flex: 1;
-
+  scroll-behavior: smooth;
 }
 
 /** Messages **/
