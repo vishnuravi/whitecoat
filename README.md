@@ -1,6 +1,6 @@
 # Whitecoat
 
-<img src="https://user-images.githubusercontent.com/1212163/80265631-2e4ff680-8666-11ea-8d14-28f4f42c6d0f.png" />
+<img src="https://user-images.githubusercontent.com/1212163/80265631-2e4ff680-8666-11ea-8d14-28f4f42c6d0f.png" width="150" />
 
 Whitecoat is a conversational agent that helps speed up patient triage and documentation for urgent care and telehealth clinics by gathering a history of present illness from a patient and preparing a summary that can be incorporated into a clinical note.
 
@@ -10,5 +10,5 @@ Whitecoat is a conversational agent that helps speed up patient triage and docum
 
 ## Built with
 
-Watson Assistant
+Watson Assistant  
 Express/Node.js
