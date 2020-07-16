@@ -5,7 +5,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var watsonRouter = require('./routes/watson-assistant');
+var api = require('./routes');
+var watson = require('./routes/watson-assistant');
 
 var app = express();
 
@@ -15,6 +16,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/watson', watsonRouter);
+app.use('/watson', watson);
+app.use('/api', api);
 
 module.exports = app;
