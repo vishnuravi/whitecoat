@@ -17,7 +17,7 @@
     "express": "^4.17.1",
     "hpi-generator": "file:hpi-generator",
     "ibm-watson": "^5.4.0",
-    "morgan": "^1.9.1",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.4"
   },
   "engines": {
