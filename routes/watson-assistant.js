@@ -27,8 +27,7 @@ var assistant = new AssistantV2({
   version: '2019-02-28',
   authenticator: new IamAuthenticator({
     apikey: process.env.ASSISTANT_IAM_APIKEY,
-  }),
-  url: process.env.ASSISTANT_URL,
+  })
 });
 
 // Endpoint to be call from the client side
