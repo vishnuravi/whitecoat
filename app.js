@@ -5,7 +5,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var api = require('./routes');
+var api = require('./routes/api');
 var watson = require('./routes/watson-assistant');
 
 var app = express();
