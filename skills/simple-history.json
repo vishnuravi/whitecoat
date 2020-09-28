@@ -1,0 +1,1329 @@
+{
+  "intents": [],
+  "entities": [
+    {
+      "entity": "gender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "female",
+          "synonyms": [
+            "female",
+            "girl",
+            "lady",
+            "woman"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "male",
+          "synonyms": [
+            "guy",
+            "male",
+            "man"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "other",
+          "synonyms": [
+            "other"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "progression",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "better",
+          "synonyms": [
+            "better"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "same",
+          "synonyms": [
+            "same"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "worse",
+          "synonyms": [
+            "worse"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "response",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "definitely not",
+            "no",
+            "nope",
+            "no way"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "alright",
+            "ok",
+            "okay",
+            "sure",
+            "yeah",
+            "yep",
+            "yes",
+            "yup"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "symptom",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "abdominal pain",
+          "synonyms": [
+            "abdominal pain",
+            "bellyache",
+            "belly aches",
+            "belly flu",
+            "belly hurts",
+            "belly pain",
+            "stomach flu",
+            "stomach hurts",
+            "stomach pain",
+            "stomach virus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "anxiety",
+          "synonyms": [
+            "anxious",
+            "nervous",
+            "panic attack",
+            "worried"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "back pain",
+          "synonyms": [
+            "aching in my back",
+            "back ache",
+            "back hurts",
+            "back pain",
+            "pain in my back"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "blurry vision",
+          "synonyms": [
+            "blurred vision",
+            "vision is blurry"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chest pain",
+          "synonyms": [
+            "pain in my chest"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cold",
+          "synonyms": [
+            "cold",
+            "common cold"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cough",
+          "synonyms": [
+            "bronchitis",
+            "coughing",
+            "hacking"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "depression",
+          "synonyms": [
+            "depressed",
+            "sad"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "diarrhea",
+          "synonyms": [
+            "diarrhea",
+            "runs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ear pain",
+          "synonyms": [
+            "earache",
+            "ear hurts",
+            "ear is hurting",
+            "ear is painful",
+            "ear is throbbing",
+            "painful ear",
+            "pain in my ear"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "eye pain",
+          "synonyms": [
+            "eye hurts",
+            "eye throbbing",
+            "hurting eye",
+            "painful eye",
+            "pain in my eye"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fever",
+          "synonyms": [
+            "feeling hot",
+            "fever",
+            "fevers",
+            "high temperature"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "flu",
+          "synonyms": [
+            "flu",
+            "influenza"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "headache",
+          "synonyms": [
+            "headache",
+            "headaches",
+            "head hurts",
+            "head pain",
+            "migraine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "knee pain",
+          "synonyms": [
+            "knee hurts",
+            "painful knee",
+            "sprained knee"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "leg pain",
+          "synonyms": [
+            "leg hurting",
+            "my leg hurts",
+            "painful leg"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nosebleed",
+          "synonyms": [
+            "epistaxis",
+            "nosebleeds"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pain",
+          "synonyms": [
+            "ache",
+            "cramps",
+            "hurt",
+            "painful",
+            "soreness"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "shoulder pain",
+          "synonyms": [
+            "frozen shoulder",
+            "painful shoulder",
+            "pinched nerve in my shoulder",
+            "shoulder hurts",
+            "sprained shoulder"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sore throat",
+          "synonyms": [
+            "raw throat",
+            "throat hurts",
+            "throat pain"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "urinary symptoms",
+          "synonyms": [
+            "bad smelling pee",
+            "bladder infection",
+            "bladder pain",
+            "burning when i go to the bathroom",
+            "burning when I pee",
+            "burning with urination",
+            "cloudy urine",
+            "dysuria",
+            "feel like i need to pee all the time",
+            "foul smelling urine",
+            "frequency",
+            "going to the bathroom too many times",
+            "hesitancy",
+            "pain when i go to the bathroom",
+            "pain when I urinate",
+            "pain with urination",
+            "peeing a lot",
+            "peeing too much",
+            "pee smells funny",
+            "pee smells weird",
+            "urgency",
+            "urinary tract infection",
+            "urinating all day",
+            "urinating too much",
+            "urine changed color",
+            "urine looks dark",
+            "uti"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-person",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://whitecoat.vishnu.io/api",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I didn't understand what you meant."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "Welcome",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "How bad is it now on a scale of 1-10?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1578271547191",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1578271547193",
+      "previous_sibling": "handler_8_1578271547193"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_5_1578265329816",
+      "disabled": true,
+      "event_name": "focus",
+      "dialog_node": "handler_1_1578267703030"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "When did it start? An approximate is ok if you don't remember."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1578271515591",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1578271515595",
+      "previous_sibling": "handler_2_1578271515595"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Glad to hear it's been getting better."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1578276675609",
+      "conditions": "@progression:better",
+      "event_name": "filled",
+      "dialog_node": "handler_1_1581189332397",
+      "previous_sibling": "handler_2_1581189310321"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "OK, you're coming in for $symptom."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1578271377090",
+      "context": {
+        "symptom": "<? input.text ?>"
+      },
+      "conditions": "anything_else",
+      "event_name": "filled",
+      "dialog_node": "handler_1_1582919904811",
+      "previous_sibling": "handler_6_1581184384268"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What's your age?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1578267672083",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1578267672116",
+      "previous_sibling": "handler_4_1578267672116"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1578271515591",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_2_1578271515595"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry to hear it's not getting better."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1578276675609",
+      "conditions": "@progression:same",
+      "event_name": "filled",
+      "dialog_node": "handler_2_1581189310321",
+      "previous_sibling": "handler_9_1578276675611"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_3_1578267736085_copy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What's your gender?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Female",
+                "value": {
+                  "input": {
+                    "text": "female"
+                  }
+                }
+              },
+              {
+                "label": "Male",
+                "value": {
+                  "input": {
+                    "text": "male"
+                  }
+                }
+              },
+              {
+                "label": "Other",
+                "value": {
+                  "input": {
+                    "text": "other"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_4_1578267736083_copy",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1578267736085_copy",
+      "previous_sibling": "handler_5_1578267736085_copy"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1578276675609",
+      "context": {
+        "progression": "@progression"
+      },
+      "conditions": "@progression",
+      "event_name": "input",
+      "dialog_node": "handler_3_1578276675611"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1578267672083",
+      "context": {
+        "age": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_4_1578267672116"
+    },
+    {
+      "type": "event_handler",
+      "title": "handler_5_1578267736085_copy",
+      "output": {},
+      "parent": "slot_4_1578267736083_copy",
+      "context": {
+        "gender": "@gender"
+      },
+      "conditions": "@gender",
+      "event_name": "input",
+      "dialog_node": "handler_5_1578267736085_copy"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1578271377090",
+      "context": {
+        "symptom": "@symptom"
+      },
+      "conditions": "@symptom",
+      "event_name": "input",
+      "dialog_node": "handler_5_1578271377127"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please give me a number between 1 and 10."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1578271547191",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number > 10",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1581189393316",
+      "previous_sibling": "handler_10_1578271547193"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "OK, you're coming in for $symptom. Got it."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1578271377090",
+      "conditions": "@symptom",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1581184384268",
+      "previous_sibling": "handler_9_1578271377127"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1578271547191",
+      "context": {
+        "severity": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_8_1578271547193"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, you must be 18 years or older."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1578267672083",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number < 18",
+      "event_name": "filled",
+      "dialog_node": "handler_8_1582852353362",
+      "previous_sibling": "handler_2_1578267672116"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What's the main symptom bothering you?",
+            "Please tell me the main symptom you're having, i.e. the one that's bothering you the most."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1578271377090",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1578271377127",
+      "previous_sibling": "handler_5_1578271377127"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Since it started it is ..."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "better",
+                "value": {
+                  "input": {
+                    "text": "better"
+                  }
+                }
+              },
+              {
+                "label": "worse",
+                "value": {
+                  "input": {
+                    "text": "worse"
+                  }
+                }
+              },
+              {
+                "label": "the same",
+                "value": {
+                  "input": {
+                    "text": "same"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_2_1578276675609",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1578276675611",
+      "previous_sibling": "handler_3_1578276675611"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "OK, I got that it started on or around <? @sys-date.reformatDateTime('MM/dd/yyyy') ?>."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1578271515591",
+      "context": {
+        "onset": "<? @sys-date.reformatDateTime('MM/dd/yyyy') ?>"
+      },
+      "conditions": "@sys-date",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1581189271996",
+      "previous_sibling": "handler_1_1578271515595"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry to hear it's getting worse."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1578276675609",
+      "conditions": "@progression:worse",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1581189348275",
+      "previous_sibling": "handler_1_1581189332397"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please give me a number between 1 and 10."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1578271547191",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number < 1",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1581189440583",
+      "previous_sibling": "handler_5_1581189393316"
+    },
+    {
+      "type": "standard",
+      "title": "Ask My Name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My name is whitecoat, I can help you prepare for your doctor's visit."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ibm-action-whats_your_name",
+      "dialog_node": "node_10_1578357033453"
+    },
+    {
+      "type": "standard",
+      "title": "Name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "context": {
+        "name": "<? input.text ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1578265329816"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_10_1610068242654"
+    },
+    {
+      "type": "standard",
+      "title": "Alleviating factors",
+      "output": {
+        "text": {
+          "values": [
+            "What, if anything, makes it worse?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1578270790178",
+      "context": {
+        "alleviating": "<? input.text ?>"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1578289311838"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1578289233753",
+      "previous_sibling": "node_8_1578291047284"
+    },
+    {
+      "type": "standard",
+      "title": "Describe the symptom",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please list any other associated symptoms you are having."
+              },
+              {
+                "text": "Please list any other symptoms you think are associated."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1578270790178",
+      "context": {
+        "description": "<? input.text ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1578291047284"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1578290677588"
+    },
+    {
+      "type": "frame",
+      "title": "Symptom",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please describe what it feels like in your own words (e.g., \"it's sharp and radiates down my leg\")"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1578290677588"
+      },
+      "dialog_node": "node_3_1578270790178",
+      "previous_sibling": "node_5_1578265329816"
+    },
+    {
+      "type": "standard",
+      "title": "Share",
+      "parent": "node_5_1578277451388",
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "": ""
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@response:yes",
+      "dialog_node": "node_3_1582921612891"
+    },
+    {
+      "type": "standard",
+      "title": "Don't start over",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK, thanks for using whitecoat! Goodbye!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1582921954094",
+      "conditions": "@response:no",
+      "dialog_node": "node_3_1582922103262",
+      "previous_sibling": "node_5_1582922036523"
+    },
+    {
+      "type": "frame",
+      "title": "Demographics",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1578270790178"
+      },
+      "conditions": "",
+      "dialog_node": "node_5_1578265329816",
+      "previous_sibling": "node_10_1610068242654"
+    },
+    {
+      "type": "standard",
+      "title": "Summarize",
+      "parent": "Welcome",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "age": "$age",
+            "name": "$name",
+            "onset": "$onset",
+            "gender": "$gender",
+            "symptom": "$symptom",
+            "severity": "$severity",
+            "associated": "$associated",
+            "aggravating": "$aggravating",
+            "alleviating": "$alleviating",
+            "description": "$description"
+          },
+          "result_variable": "hpi_text"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "dialog_node": "node_5_1578277451388",
+      "previous_sibling": "node_3_1578270790178"
+    },
+    {
+      "type": "standard",
+      "title": "Start over",
+      "parent": "node_7_1582921954094",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@response:yes",
+      "dialog_node": "node_5_1582922036523"
+    },
+    {
+      "type": "standard",
+      "title": "Aggravating factors",
+      "parent": "node_3_1578270790178",
+      "context": {
+        "aggravating": "<? input.text ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1578277451388"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1578289311838",
+      "previous_sibling": "node_1_1578289233753"
+    },
+    {
+      "type": "standard",
+      "title": "Don't share",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK, I won't share this with your doctor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like to start over?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1578277451388",
+      "conditions": "@response:no",
+      "dialog_node": "node_7_1582921954094",
+      "previous_sibling": "node_3_1582921612891"
+    },
+    {
+      "type": "standard",
+      "title": "Associated symptoms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What, if anything, makes it better?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1578270790178",
+      "context": {
+        "associated": "<? input.text ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1578289233753"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_8_1578291047284",
+      "previous_sibling": "node_2_1578290677588"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Ok."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1578289233753",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_10_1578289413342"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Where is the pain?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1578270790178",
+      "disabled": true,
+      "conditions": "$symptom == \"pain\"",
+      "dialog_node": "response_5_1578278610006",
+      "previous_sibling": "node_7_1578289311838"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK, I'm sending this to your doctor. Hope you feel better!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1582921612891",
+      "disabled": true,
+      "dialog_node": "response_5_1582927239472"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This is the summary I'll be sending to your doctor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "$hpi_text.response.text"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "May I share this with your doctor?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1578277451388",
+      "conditions": "$hpi_text",
+      "dialog_node": "response_9_1582923597126",
+      "previous_sibling": "node_7_1582921954094"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, there was an issue generating your summary."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1578277451388",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1582923597770",
+      "previous_sibling": "response_9_1582923597126"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1578270790178",
+      "variable": "$symptom",
+      "dialog_node": "slot_10_1578271377090",
+      "previous_sibling": "response_5_1578278610006"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1578270790178",
+      "variable": "$date",
+      "dialog_node": "slot_1_1578271515591",
+      "previous_sibling": "slot_10_1578271377090"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1578270790178",
+      "variable": "$progression",
+      "dialog_node": "slot_2_1578276675609",
+      "previous_sibling": "slot_1_1578271515591"
+    },
+    {
+      "type": "slot",
+      "title": "slot_4_1578267736083_copy",
+      "output": {},
+      "parent": "node_5_1578265329816",
+      "variable": "$gender",
+      "dialog_node": "slot_4_1578267736083_copy",
+      "previous_sibling": "slot_6_1578267672083"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1578265329816",
+      "variable": "$age",
+      "dialog_node": "slot_6_1578267672083",
+      "previous_sibling": "handler_1_1578267703030"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1578270790178",
+      "variable": "$severity",
+      "dialog_node": "slot_8_1578271547191",
+      "previous_sibling": "slot_2_1578276675609"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi! I'll help you prepare for your visit by asking you a few questions. What's your full name?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1610068242654"
+      },
+      "conditions": "welcome",
+      "digress_in": "not_available",
+      "dialog_node": "Welcome",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_10_1578357033453"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "History",
+  "language": "en",
+  "description": "Gathers patient history"
+}
