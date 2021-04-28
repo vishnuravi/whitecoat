@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: ibm-watson
+    versions:
+    - ">= 5.7.a, < 5.8"
+  - dependency-name: ibm-watson
+    versions:
+    - 6.0.2
+    - 6.0.3
